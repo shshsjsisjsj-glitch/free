@@ -1,0 +1,23 @@
+bool Enable = {};
+    bool Aimbot = {};
+    float AimFov = {};
+    int AimCheck = {};
+    int AimType = {};
+    int AimWhen = {};
+    bool isAimFov = {};
+    const char *dir[4] = {"Always", "Fire", "Scope", "Fire + Scope"};
+    bool lines = {};
+    bool Box = {};
+    bool Outline = {};
+    bool Name = {};
+    bool Health = {};
+    bool Distance = {};
+    bool fovaimglow = {};
+    bool circlepos = {};
+    bool skeleton = {};
+    bool OOF = {};
+    bool enemycount = {};
+    float fovLineColor[4] = {1.0f, 1.0f, 1.0f, 1.0f};
+    ImVec4 boxColor = ImVec4(1.0f, 1.0f, 1.0f, 1.0f);
+    float AimSpeed = 1.0f;
+} 
