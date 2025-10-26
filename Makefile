@@ -27,6 +27,6 @@ ifeq ($(IGNORE_WARNINGS),1)
   $(TWEAK_NAME)_CCFLAGS += -w
 endif
 $(TWEAK_NAME)_FRAMEWORKS =  UIKit Foundation Security QuartzCore CoreGraphics CoreText  AVFoundation Accelerate GLKit SystemConfiguration GameController
-$(TWEAK_NAME)_FILES = ImGuiDrawView.mm $(wildcard Esp/*.mm) $(wildcard Esp/*.m) $(wildcard IMGUI/*.cpp) $(wildcard IMGUI/*.mm) $(wildcard Antiban.mm) $(wildcard fishhook.c) $(wildcard Security/hide.mm) $(wildcard antiban/*.c)
+$(TWEAK_NAME)_FILES = ImGuiDrawView.mm $(wildcard Esp/*.mm) $(wildcard Esp/*.m) $(wildcard IMGUI/*.cpp) $(wildcard IMGUI/*.mm) $(wildcard Antiban.mm) $(wildcard fishhook.c) Security/Hide.mm $(wildcard antiban/*.c)
 
 include $(THEOS_MAKE_PATH)/tweak.mk
